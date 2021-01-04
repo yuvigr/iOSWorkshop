@@ -204,13 +204,9 @@
 		109D93D825A3171B00842975 /* iOSWorkshop */ = {
 			isa = PBXGroup;
 			children = (
+				109D945225A32B4A00842975 /* Misc */,
 				109D93D925A3171B00842975 /* AppDelegate.swift */,
-				109D93DB25A3171B00842975 /* SceneDelegate.swift */,
-				109D93DD25A3171B00842975 /* ViewController.swift */,
-				109D93DF25A3171B00842975 /* Main.storyboard */,
-				109D93E225A3171D00842975 /* Assets.xcassets */,
-				109D93E425A3171D00842975 /* LaunchScreen.storyboard */,
-				109D93E725A3171D00842975 /* Info.plist */,
+				109D944725A32B3B00842975 /* Session 1 */,
 			);
 			path = iOSWorkshop;
 			sourceTree = "<group>";
@@ -257,6 +253,26 @@
 			path = "iOSWorkshop WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		109D944725A32B3B00842975 /* Session 1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Session 1";
+			sourceTree = "<group>";
+		};
+		109D945225A32B4A00842975 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				109D93DB25A3171B00842975 /* SceneDelegate.swift */,
+				109D93DD25A3171B00842975 /* ViewController.swift */,
+				109D93DF25A3171B00842975 /* Main.storyboard */,
+				109D93E225A3171D00842975 /* Assets.xcassets */,
+				109D93E425A3171D00842975 /* LaunchScreen.storyboard */,
+				109D93E725A3171D00842975 /* Info.plist */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		D2330946DD6AD9C2F0F0D104 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,7 +287,6 @@
 				4E9A26616EF3896BF7CEC448 /* Pods-iOSWorkshopTests.debug.xcconfig */,
 				0887A76D3C83E1B5BC0C69E9 /* Pods-iOSWorkshopTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
