@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'iOSWorkshop' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iOSWorkshop
+
+  target 'iOSWorkshopTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'iOSWorkshopUITests' do
+    # Pods for testing
+  end
+
+end
+
+target 'iOSWorkshop WatchKit App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iOSWorkshop WatchKit App
+
+end
+
+target 'iOSWorkshop WatchKit Extension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iOSWorkshop WatchKit Extension
+
+end
